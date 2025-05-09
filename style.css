@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle at center, #0a0a23, #000);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: #1e2a47; /* Lighter shade of blue */
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #00d9ff;
+  }
+  
+  header p {
+    margin-top: 5px;
+    color: #ccc;
+    font-size: 1rem;
+  }
+  
+  main {
+    flex: 1;
+    padding: 30px 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 30px;
+  }
+  
+  .search-container input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #00d9ff;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .search-container button:hover {
+    background-color: #00aacc;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #00d9ff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgba(0, 217, 255, 0.4);
+    backdrop-filter: blur(5px);
+  }
+  
+  .flag {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .card h2 {
+    color: #00d9ff;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .card button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    background-color: #00d9ff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    padding: 15px;
+    background-color: #111;
+    color: #aaa;
+    font-size: 0.9rem;
+  }
+  
